@@ -1,11 +1,11 @@
 (set-env!
   :source-paths #{"src"}
-  :dependencies '[[adzerk/bootlaces "0.1.10" :scope "test"]])
+  :dependencies '[[adzerk/bootlaces "0.1.13" :scope "test"]])
 
 (require '[adzerk.bootlaces :refer :all]
          '[cljsjs.boot-cljsjs.packaging :refer [minify]])
 
-(def +version+ "0.5.1")
+(def +version+ "0.5.1.shyblower.1")
 
 (bootlaces! +version+)
 
